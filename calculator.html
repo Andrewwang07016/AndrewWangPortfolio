@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Andrew Wang | Portfolio </title>
+	<style>
+	/* General styles */
+	body {
+		margin: 0;
+		font-family: Segoe UI;
+		}
+
+        /* Navbar styling */
+	.navbar {
+		width: 80%;
+		height: 60px;
+		background-color: hsl(0, 0%, 100%);
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		display: flex;
+		justify-content: right; /* Centers items */
+		align-items: center;
+	    
+
+		}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		}
+
+	.navbar li {
+		margin: 0;
+		padding: 0;
+	}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+	text-align: center;
+	position: relative;
+	}
+
+.navbar a::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0;
+	height: 3px;
+	background-color: blue;
+	transition: width 0.25s ease-in-out;
+	transform: translateX(-50%);
+	}
+
+.navbar a:hover {
+	color: blue;
+	}
+
+.navbar a:hover::after {
+	width: 100%;
+}
+		
+		}
+
+	/* Ensures content isn't hidden behind fixed navbar */
+	.content {
+		margin-top: 60px;
+		padding: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+
+<style>
+        h1 {
+	background-color: #333356;
+	color: white;
+	padding: 80px 20px;
+	text-align: center;
+	margin: 0;
+	display: block;
+        }
+</style>
+<style> h2 { text-align: center;} </style>
+
+<h1> Calculator </h1>
+
